@@ -1,0 +1,155 @@
+body {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.container {
+    max-width: 970px;
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 19px;
+    color: #828282;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    border-bottom: 1px solid #828282;
+    padding: 20px 0;
+}
+
+.nav-item {
+    padding: 0 40px 0 0;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.hero-section {
+    padding-top: 10px;
+}
+
+.about-section,
+.portfolio-section,
+.skills-section,
+.footer {
+    padding: 100px 0;
+}
+
+.skills-section p {
+    padding-bottom: 20px;
+}
+
+.skills-section .image-holder {
+    padding-bottom: 25px;
+} 
+
+.row .col-xs-12 {
+    padding-bottom: 50px;
+}
+
+.row .col-xs-12:last-child {
+    padding-bottom: 0;
+}
+
+div.link {
+    padding: 30px 0 50px;
+}
+
+div.link a{
+    color: black;
+}
+
+div.link a:hover{
+    color: #828282;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .text-holder {
+    padding-bottom: 60px;
+}
+
+.footer .btn { 
+    display: inline-block;
+    border-style: none;
+    background: black;
+    border: 3px solid black;
+    border-radius: 22px;
+    width: 180px;
+    height: 44px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: ease-in-out 0.3s;
+    margin-bottom: 30px;
+}
+
+.btn:hover { 
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0 25px 60px;
+}
+
+.icon-holder .icon {
+    transition: ease 0.3s;
+}
+
+.icon-holder .icon:hover {
+    opacity: 0.7;
+}
+
+section#contacts {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin: 0 auto;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    line-height: 20px; 
+    padding-bottom: 80px;
+    color:#828282;
+    font-size: 14px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: inherit;
+    transition: ease 0.3s;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
