@@ -6,7 +6,6 @@ body {
 
 .container {
     max-width: 970px;
-    width: 100%;
 }
 
 main {
@@ -117,11 +116,13 @@ div.link a:hover{
 
 .icon-list {
     list-style: none;
-    padding: 0 25px 60px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .icon-holder .icon {
     transition: ease 0.3s;
+    padding: 0 25px 60px;
 }
 
 .icon-holder .icon:hover {
